@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rad</title>
+</head>
+
+<body>
+    <div id="radioContainer">
+        <div id="radioControls">
+            <div class="imgRadio">
+                <img src="img/radio.jfif" alt="" srcset="">
+            </div>
+            <div id="currentStationName"></div>
+
+            <button id="playPreviousButton" onclick="playPrevious()">
+                <span class="material-symbols-outlined">
+                    skip_previous
+                </span>
+            </button>
+            <button id="playPauseButton" onclick="togglePlayPause()">
+                <span class="material-symbols-outlined">
+                    play_circle
+                </span>
+            </button>
+            <button id="playNextButton" onclick="playNext()">
+                <span class="material-symbols-outlined">
+                    skip_next
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

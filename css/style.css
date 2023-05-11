@@ -1,0 +1,86 @@
+START Radio Div
+.radio-content .container {
+    position: relative;
+}
+
+.headerRadio {
+    margin: auto;
+}
+
+.headerRadio h1 {
+    font-family: 'Sofia';
+    color: #ffffffeb;
+}
+
+
+.container .disRaddio {
+    display: flex;
+}
+
+.container .disRaddio #radioList .radioDiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid #cac7ca;
+    box-shadow: inset 0 -13px 10px -16px rgba(0, 0, 0, 0.35);
+    margin-top: 3%;
+}
+
+.container .disRaddio .imgRadio {
+    position: relative;
+}
+
+.container .disRaddio .imgRadio img {
+    width: 77%;
+    margin-left: 15%;
+    margin-top: 20%;
+    border: 10px solid #0714206b;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top: 20%;
+}
+
+.container .disRaddio #radioList .radioDiv #buttonRadio {
+    margin-right: 2%;
+}
+/* START of the Responsive part */
+
+/* Media queries for Mobile screens */
+/* @media screen and (max-width: 767px) {
+    .headerRadio h1 {
+        font-size: 30px;
+    }
+
+    .container .disRaddio .imgRadio {
+        display: none;
+    }
+} */
+/* End of mobile screen */
+
+/* Media queries for Tablets screens */
+/*@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .headerRadio {
+        margin: 0;
+    }
+
+    .headerRadio h1 {
+        font-size: 30px;
+    }
+
+    .container .disRaddio .imgRadio {
+        display: none;
+    }
+}
+*/
+
+
+.radioDiv {
+    display: none;
+}
+
+#radioControls {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
